@@ -1,0 +1,18 @@
+# default values for blocks
+
+default height:70 width:50 hit_points:3
+
+# block definitions
+
+bdef symbol:r fill:image(block_images/chess_runner.jpg)
+bdef symbol:s fill:image(block_images/chess_soldier.jpg)
+bdef symbol:t fill:image(block_images/chess_tower.jpg)
+bdef symbol:k fill:image(block_images/chess_king.jpg)
+bdef symbol:h fill:image(block_images/chess_horse.jpg)
+
+
+
+
+# spacers definitions
+
+sdef symbol:- width:50
